@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929659235067",
+    "project_id": "gym-app-d92b2",
+    "storage_bucket": "gym-app-d92b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929659235067:android:f36f2cf89bfaeb7a1b9e5e",
+        "android_client_info": {
+          "package_name": "com.haris.gym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByv1PdYvzmYlhrNj0sHc0r3K-CpdXcrCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

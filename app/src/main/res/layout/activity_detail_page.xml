@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:weightSum="5"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FF0000"
+            android:textSize="40dp"
+            android:textStyle="italic|bold"
+android:layout_marginTop="40dp"
+            android:id="@+id/clas"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aaaaaaaaaaaaaaaaa"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000CF3"
+            android:textSize="40dp"
+            android:layout_below="@+id/clas"
+            android:textStyle="italic|bold"
+            android:id="@+id/des"
+            />
+
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        />
+</RelativeLayout>
+
+
+</LinearLayout>

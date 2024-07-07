@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercies"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ex"
+            ></TextView>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ex"
+            android:hint="Enter Exercies"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/name"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/name"
+            android:hint="Enter Catigeory"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/Cati"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Cati"
+            android:hint="Enter Image Link"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/Image"
+            android:inputType="textUri"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Image"
+            android:hint="Enter # Sets"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/sets"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sets"
+            android:hint="Enter Target Area"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/tar"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tar"
+            android:hint="Enter Descrption"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/des"
+            android:inputType="number"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Add Exercies"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/des"
+            android:layout_marginTop="20dp"
+            android:id="@+id/add"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/add"
+            android:hint="Enter Deleted Name"
+            android:textColorHint="#FF0000"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:id="@+id/DelName"
+            android:inputType="number"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Delete Exercies"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/DelName"
+            android:layout_marginTop="25dp"
+            android:id="@+id/del"
+            />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

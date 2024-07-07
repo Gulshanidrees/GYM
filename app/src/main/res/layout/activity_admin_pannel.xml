@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FF0000"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Admin Pannel"
+            android:textColor="#171E3A"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="serif"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="#0016FB"
+
+        >
+        <Button
+android:onClick="Exer"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#F3FF00"
+            android:text="Manage Exercies"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:id="@+id/exe"
+            />
+
+        <Button
+            android:onClick="Users"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#F3FF00"
+            android:layout_margin="20dp"
+            android:text="Manage Users"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:layout_below="@id/exe"
+            android:id="@+id/users"
+            />
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FF0000"
+            android:layout_margin="20dp"
+            android:text="Log out"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:layout_below="@id/users"
+            android:id="@+id/logout"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
